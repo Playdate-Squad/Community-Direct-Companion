@@ -15,6 +15,7 @@
         "song2",
         "audio will cycle automatically, song can be switched with left and right on the d-pad. If only one is provided it will loop, pause and play with A"
     ],
+    "audioAutoplay":true,
     "game":{
         "title":"Cool game TM",
         "dev":"Cool dev",
