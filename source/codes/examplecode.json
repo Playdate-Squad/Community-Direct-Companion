@@ -1,0 +1,25 @@
+{
+    "code":"UUDDLRLR",
+    "title":"Super cool secret thing",
+    "images":[
+        "image1",
+        "image2",
+        "Images are part of a gallery people can scroll / crank through"
+    ],
+    "text":[
+        "Hello, World!",
+        "text can be overlaid over images or scrolled through without accompaniment"
+    ],
+    "audio":[
+        "song1",
+        "song2",
+        "audio will cycle automatically, song can be switched with left and right on the d-pad. If only one is provided it will loop, pause and play with A"
+    ],
+    "game":{
+        "title":"Cool game TM",
+        "dev":"Cool dev",
+        "link":"https://play.date/games/cool-game",
+        "explanation1":"this will be used to create a fullscreen image at the very bottom of the image gallery containing a qr code to the game or dev and some dev info",
+        "explanation2":"all files in this folder can go by any name as long as the app can load them, inputting the right code loads the file with the code"
+    }
+}
