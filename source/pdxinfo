@@ -1,0 +1,7 @@
+name=Playdate Community Direct Companion
+author=Playdate Squad
+description=The official companion app for the Playdate Community Direct.
+bundleID=com.pdsquad.companion
+version=0.0
+buildNumber=00000
+imagePath=launcher
