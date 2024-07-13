@@ -94,6 +94,7 @@ function MainUpdate()
     end
 
     if playdate.buttonJustPressed(playdate.kButtonA) then
+        scroll = 0
         data = json.decodeFile("games/2024.1/"..selection.."data.json")
 
         local imageList = playdate.file.listFiles("games/2024.1/"..selection.."images")
@@ -179,7 +180,7 @@ function OpenUpdate()
     if scroll > maxScroll then scroll = maxScroll end
     if scroll < 0 then scroll = 0 end
 
-    frameCount += 1 / 4
+    frameCount += 1
 
     if playdate.buttonJustPressed(playdate.kButtonB) or playdate.buttonJustPressed(playdate.kButtonA) then
         playdate.update = MainUpdate
