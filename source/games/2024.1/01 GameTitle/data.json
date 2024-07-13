@@ -1,7 +1,0 @@
-{
-	"Title":"Game Title",
-	"Description":"Game Description",
-	"Developer":"Developer/Studio Name",
-	"URL":"Game URL, if none then developer URL",
-	"Release":"Release date, leave as blank string if unknown, otherwise format like: 'January 12, 2026'"
-}
