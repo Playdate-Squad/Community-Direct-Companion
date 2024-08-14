@@ -104,7 +104,7 @@ function MainUpdate()
 
             print(imageList[fileID])
 
-            if string.match(imageList[fileID], "pdt") then
+            if string.match(imageList[fileID], "pdt") or string.match(imageList[fileID], "-table") then
                 local newImg = gfx.imagetable.new("games/2024.1/"..selection.."images/"..imageList[fileID])
                 gifs[#gifs+1] = newImg
                 maxScroll += newImg[1].height + 12

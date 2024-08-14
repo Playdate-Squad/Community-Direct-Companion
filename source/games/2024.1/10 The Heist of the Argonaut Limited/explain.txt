@@ -1,0 +1,1 @@
+I added the empty.png in this folder so that github picks up that it needs to keep that folder, otherwise it crashes
